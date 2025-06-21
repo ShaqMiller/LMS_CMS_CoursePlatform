@@ -10,6 +10,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-primary: #573ef0;
+  --color-primary-hover: #3e24db;
+
+
+  --color-icon-bolt:#E9C714;
+  --color-icon-heart:#F23A3A;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,0 +1,48 @@
+$r_primary_color:#573EF0;
+$r-text-color-1:#0C1228;
+$r-outline1:#EFEFEF;
+$r-text-color-2:#ABB0B4;
+// OLD
+$bg-color:#14171A;
+$text-color:#E6E6E6;
+$text-color2:#A7B1BB;
+$container-color:#27292C;
+$container-color2:#1B1E21;
+
+
+// Custom Buttons
+@mixin custom-button($defaultBg,$hoverBg,$textColor,$textHoverColor,$minWidth) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: $minWidth;
+    color: $textColor;
+    background-color:$defaultBg ;
+    outline: none;
+    box-shadow: none;
+
+    &:hover{
+        background-color:$hoverBg;
+        cursor: pointer;
+        color: $textHoverColor;
+    }
+}
+
+
+@mixin custom-input($width,$backgroundColor,$borderColor,$textColor){
+    display: block;
+    padding: 15px 16px;
+    width: $width;
+    height: 58px;
+    border: 1px solid $borderColor;
+    border-radius: 8px;
+    align-self: stretch;
+    margin: 10px 0;
+    background-color: $backgroundColor;
+    color: $textColor;
+    font-weight: 300;
+   
+}
+
