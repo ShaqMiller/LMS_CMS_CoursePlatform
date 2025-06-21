@@ -88,9 +88,9 @@ This project is in active development and is intended to demonstrate frontend pr
 
 Feel free to reach out or view more of my work:
 
-- 🌐 [Portfolio](#)  
+<!-- - 🌐 [Portfolio](#)   -->
 - ✉️ [millershaquille533@gmail.com]
 
 ---
 
-> Made with ❤️ by [Shaquille Mi;;er]
+> Made with ❤️ by [Shaquille Miller]
